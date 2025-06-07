@@ -1,0 +1,35 @@
+# Development files
+.env
+.env.local
+.vscode/
+.idea/
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Output data
+consumption-data/
+
+# Documentation source files
+docs/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Examples (optional - uncomment if you don't want examples in npm package)
+# examples/
+
+# Logs and temp files
+*.log
+*.tmp
+temp/
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db

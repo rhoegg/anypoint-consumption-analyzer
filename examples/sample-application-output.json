@@ -1,0 +1,55 @@
+{
+  "businessGroup": {
+    "id": "12345678-1234-1234-1234-123456789012",
+    "name": "Example Business Group"
+  },
+  "environment": {
+    "id": "87654321-4321-4321-4321-210987654321",
+    "name": "Production",
+    "type": "production",
+    "isProduction": true
+  },
+  "application": {
+    "domain": "customer-experience-api",
+    "status": "STARTED",
+    "lastUpdateTime": "2024-12-15T14:30:00Z",
+    "fileName": "customer-experience-api-1.0.0.jar",
+    "muleVersion": "4.4.0",
+    "workerSize": 0.1,
+    "workerType": "MICRO",
+    "numberOfWorkers": 2,
+    "flowAnalysis": {
+      "estimatedFlows": 5,
+      "confidence": "high",
+      "source": "XML analysis",
+      "size": "2.45 MB",
+      "details": {
+        "actualAnalysis": true
+      }
+    },
+    "messageAnalysis": {
+      "estimatedDailyMessages": 15000,
+      "estimatedMonthlyMessages": 450000,
+      "confidence": "high",
+      "source": "Flow-level message metrics"
+    },
+    "jarInfo": {
+      "jarPath": "consumption-data/application-jars/customer-experience-api-1.0.0.jar",
+      "downloaded": true,
+      "size": 2569011,
+      "method": "local-file"
+    },
+    "monitoringData": {
+      "messageData": {
+        "messageCount": {
+          "count": 450000
+        }
+      },
+      "period": {
+        "from": "2024-11-15T00:00:00Z",
+        "to": "2024-12-15T00:00:00Z",
+        "days": 30
+      }
+    }
+  }
+}

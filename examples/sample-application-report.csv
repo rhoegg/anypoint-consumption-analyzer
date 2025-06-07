@@ -1,0 +1,8 @@
+Business Group,Environment,Is Production,Application,Status,Mule Version,Worker Type,Workers,Estimated Flows,Confidence,Est. Daily Messages,Est. Monthly Messages,Message Confidence,Last Updated
+"Example Corp","Production",Yes,"customer-experience-api","STARTED","4.4.0","MICRO",2,5,"high",15000,450000,"high","2024-12-15"
+"Example Corp","Production",Yes,"order-process-api","STARTED","4.4.0","SMALL",1,7,"medium",8500,255000,"medium","2024-12-14"
+"Example Corp","Production",Yes,"inventory-system-api","STARTED","4.3.0","MICRO",1,3,"high",3200,96000,"high","2024-12-13"
+"Example Corp","Sandbox",No,"test-customer-api","STARTED","4.4.0","MICRO",1,5,"low",100,3000,"low","2024-12-10"
+"Example Corp","Sandbox",No,"poc-integration","STOPPED","4.2.0","MICRO",1,2,"low",0,0,"none","2024-11-20"
+"IT Business Group","Production",Yes,"salesforce-sync-api","STARTED","4.4.0","MEDIUM",2,9,"high",25000,750000,"high","2024-12-15"
+"IT Business Group","Production",Yes,"database-connector-api","STARTED","4.3.0","SMALL",1,4,"medium",5000,150000,"medium","2024-12-15"

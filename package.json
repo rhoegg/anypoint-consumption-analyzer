@@ -1,0 +1,36 @@
+{
+  "name": "anypoint-consumption-analyzer",
+  "version": "1.0.1",
+  "description": "Analyzes MuleSoft Anypoint Platform deployments to estimate billable flows and message consumption across organizations",
+  "main": "consumption-analyzer.js",
+  "scripts": {
+    "start": "node consumption-analyzer.js"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7"
+  },
+  "keywords": [
+    "mulesoft",
+    "anypoint",
+    "flows",
+    "messages",
+    "monitoring",
+    "analytics",
+    "billing",
+    "consumption"
+  ],
+  "author": "Ryan Hoegg",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhoegg/anypoint-consumption-analyzer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rhoegg/anypoint-consumption-analyzer/issues"
+  },
+  "homepage": "https://github.com/rhoegg/anypoint-consumption-analyzer#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
