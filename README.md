@@ -42,7 +42,7 @@ Your Connected App must have the following scopes:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-org/anypoint-consumption-analyzer.git
+   git clone https://github.com/rhoegg/anypoint-consumption-analyzer.git
    cd anypoint-consumption-analyzer
    ```
 
